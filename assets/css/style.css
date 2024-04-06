@@ -8,10 +8,6 @@ body{
 }
 
 main{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-55%);
   background:#fff;
   width: 330px;
   margin: 20px auto;
@@ -84,13 +80,42 @@ main:hover{
   height: 50px;
 }
 
-@media screen  and(max-width:440px){
+@media screen  and (max-width:440px){
   body{
-    width: 100%;
-    height: 100%;
+    font-size: 13px;
   }
   main{
+    margin-top: 40px;
     width: 290px;
+  }
+
+  .imagem img{
+    width: 270px;
+    border-radius: 10px;
+  }
+  .learning{
+    margin: 10px;
+  }
+  
+  .publicacao{
+    margin: 10px;
+  }
+  
+  .principal h1{
+    margin: 10px;
+  }
+  
+  .principal p{
+    margin: 10px;
+  }
+  
+  .greg{
+    margin: 10px;
+  }
+  
+  .greg img{
+    width: 30px;
+    height: 30px;
   }
 }
 
