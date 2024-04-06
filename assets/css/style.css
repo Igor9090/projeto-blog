@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  background: hsl(47, 88%, 63%);
+  font-weight: 500;
+}
+
+main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-55%);
+  background:#fff;
+  width: 330px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 14px 13px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 14px 13px 0px 0px rgba(0,0,0,1);
+  box-shadow: 14px 13px 0px 0px rgba(0,0,0,1);
+}
+
+main:hover{
+  -webkit-box-shadow: 17px 15px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 17px 15px 0px 0px rgba(0,0,0,1);
+  box-shadow: 17px 15px 0px 0px rgba(0,0,0,1);
+  transition: 0.5s;
+}
+
+.imagem{
+  display: flex;
+  justify-content: center;
+  padding: 0 0 10px 0;
+}
+
+.imagem img{
+  border-radius: 10px;
+}
+
+.learning{
+  background: hsl(47, 88%, 63%);
+  color: black;
+  width: fit-content;
+  font-weight: 800;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 14px;
+}
+
+.publicacao{
+  margin: 14px;
+}
+
+.principal h1{
+  margin: 14px;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.principal h1:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.principal p{
+  margin: 14px;
+  color: hsl(0, 0%, 50%);
+  line-height: 25px;
+}
+
+.greg{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 800;
+  margin: 14px;
+}
+
+.greg img{
+  width: 50px;
+  height: 50px;
+}
+
